@@ -1,0 +1,179 @@
+/*Reset*/
+*{
+
+}
+h3 {
+	margin-top: 0;
+}
+/*Header*/
+/*--------------------------------*/
+header {
+	margin-bottom: 30px;
+}
+	div#main-menu-wrapper {
+	
+	}
+		div#main-menu-wrapper div nav.navbar {
+			border-top: 3px solid #BB3B11;
+			border-bottom: 1px solid #E0E0E0;
+			width: 100%;
+			margin-bottom: 0;
+			position: fixed;
+		}
+			div#main-menu-wrapper div nav.navbar .container {
+				padding: 20px 0;
+			}
+
+		form#navbar a {
+			margin-left: 20px;
+			text-transform: uppercase;
+		}
+		ul#main-menu li a {
+		}
+		div#carousel_image {
+			margin-top: 90px;
+		}
+
+	div#modalLogin .modal-dialog .modal-content .modal-body {
+		max-height: 238px;
+		overflow: hidden;
+	}
+/*--------------------------------*/ 
+/*Main Content*/
+section#main-container {
+	/*margin-bottom: 50px;*/
+}
+	div#features {
+		overflow: hidden;	
+		margin-bottom: 50px;
+		padding-top: 100px;
+	}
+		section#title h1 {
+			text-align: center;
+		}
+		section#featured-container {
+			
+		}
+			section#featured-container .col {
+				text-align: center;
+				margin-bottom: 30px;
+			}
+				section#featured-container .col .img-content img {
+					width: 140px;
+					height: 140px;
+					border: 1px solid #FCB51B;
+				}
+	section#action-container {
+		background-color: #efefef;
+	}
+		div#action {
+			overflow: hidden;
+			padding-top: 80px;
+			margin-bottom: 100px;
+		}
+			div#action .action-title {
+				text-align: center;
+			}
+		div#action section div h3 {
+			text-align: center;
+		}
+		div#action section div form .btn-login {
+			margin-top: 10px;
+		}
+/*--------------------------------*/
+/*Footer*/
+footer {
+	color: #fff;
+	min-height: 80px;
+	background: #BB3B11;
+	padding: 10px;
+}
+	div#copyright p {
+		margin-top: 20px;
+	}
+	div#copyright p:first-child {
+		text-align: left;
+	}
+	div#copyright p:last-child {
+		text-align: right;
+	}
+		div#copyright p a {
+			color: #fff;
+		}
+			div#copyright p:last-child a img {
+				width: 8%;
+				margin-left: 10px;
+				position: absolute;
+				bottom: -12px;
+			}
+/*--------------------------------*/
+/*Generic CSS*/
+.remove-side-padding {
+	padding-right: 0;
+	padding-left: 0;
+}
+/*--------------------------------*/
+.bar {
+	border: 2px solid #BB3B11;
+	width: 5%;
+	margin: auto;
+	margin-bottom: 50px;
+}
+/*--------------------------------*/
+/*Bootstrap Override*/
+.carousel-inner .item img {
+	margin: auto;
+	min-height: 575px;
+}
+.navbar-inverse {
+	min-height: 90px;
+	border: none;
+	background: rgba(255,255,255, 1);
+}
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-brand:hover
+{
+	color: #000;
+}
+.navbar-inverse .navbar-nav>.open>a, 
+.navbar-inverse .navbar-nav>.open>a:focus, 
+.navbar-inverse .navbar-nav>.open>a:hover,
+.navbar-inverse .navbar-nav>.active>a, 
+.navbar-inverse .navbar-nav>.active>a:focus, 
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus,
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav .open .dropdown-menu>li>a:hover
+{
+	color: #BB3B11;
+	background: transparent;
+}
+.navbar-inverse .navbar-toggle, 
+.navbar-inverse .navbar-toggle:focus, 
+.navbar-inverse .navbar-toggle:hover 
+{
+	background-color: #BB3B11;
+	border: #fff;
+}
+/*--------------------------------*/
+/*Responsive*/
+@media(max-width: 991px) {
+	section#featured-container .col {
+		margin-bottom: 50px;
+	}
+}
+/*--------------------------------*/
+@media(max-width: 767px) {
+	div#navbar {
+		width: 100%;
+		float: none !important;
+		margin: auto;
+	}
+
+	div#copyright p:first-child,
+	div#copyright p:last-child
+	{
+		text-align: center;
+	}
+}
+/*--------------------------------*/
